@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('Roboto-Light.ttf');
+}
+
+body {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+}
+
+.clicker {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 18px;
+    width: 273px;
+    height: 173px;
+    background-color: #444242;
+}
+
+.info {
+    width: 231px;
+    height: 83px;
+    margin: 0px 35px 39px 7px;
+    font-size: 19px;
+}
+
+.info p,
+.info b {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    position: relative;
+    float: left;
+    height: 83px;
+    color: #ffffff;
+}
+
+.gold_text {
+    display: block;
+    margin-bottom: 30px ;
+}
+
+.eat_text {
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+
+.points {
+    position: relative;
+    float: right;
+    text-align: right;
+    height: 83px;
+}
+
+.gold_point {
+    color: #D6DB00;
+}
+
+.eat_point {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    color: #1DC50F;
+}
+
+.btns a {
+    text-decoration: none;
+    color: #000;
+}
+.gold .gold_btn {
+    display: block;
+    float: left;
+    width: 137px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 27px;
+    background-color: #FCFF5F;
+}
+
+.eat .eat_btn {
+    display: inline-block;
+    width: 136px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 27px;
+    background-color: #BFC66D;
+}
